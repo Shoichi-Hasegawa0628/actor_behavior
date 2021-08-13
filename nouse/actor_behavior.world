@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <actor name="actor">
+      <skin>
+        <filename>/root/HSR/catkin_ws/src/tmc_gazebo_worlds/models/actor_behavior/meshes/sophia-waving-bh.dae</filename>
+        <scale>0.009</scale>
+      </skin>
+    </actor>
+  </world>
+</sdf>
